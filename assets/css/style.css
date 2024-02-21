@@ -3,6 +3,8 @@ body {
     margin: 0;
 }
 
+
+/*NAV*/
 nav {
     height: 60px;
     background-color: gray;
@@ -29,13 +31,18 @@ li {
     color: white;
     text-decoration: none;
 }
+/*fin nav*/
 
+
+/*MAIN*/
 main {
     margin-top: 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
+
+/*boîte ville*/
 .city {
     display: flex;
     flex-direction: column;
@@ -44,8 +51,11 @@ main {
     box-shadow: 10px 10px 5px gray;
     width: 450px;
     height: 580px;
+    margin: 10px;
 }
 
+
+/*boîte image*/
 .img {
     width: 450px;
     height: 350px;
@@ -64,12 +74,18 @@ main {
 .newyork {
     background-image: url('../img/new-york.jpeg');
 }
+/*fin boîte image*/
 
+
+/*boîte texte*/
 .text {
     text-align: justify;
     padding: 10px 30px 10px 30px;
 }
+/*fin boîte texte*/
 
+
+/*boîte bouton*/
 .link {
     width: 35%;
     height: 8%;
@@ -91,7 +107,10 @@ main {
 .blue {
     background-color: rgb(0, 110, 255);
 }
+/*fin boîte bouton*/
 
+
+/*hover*/
 li:hover {
     background-color: black;
 }
@@ -99,8 +118,14 @@ li:hover {
 .link:hover {
     background-color: black;
 }
+/*fin hover*/
 
-@media screen and (max-width:900px){
+/*fin boîte ville*/
+
+/*fin main*/
+
+
+@media screen and (max-width:1200px){
 
     main {
         display: flex;
@@ -116,7 +141,7 @@ li:hover {
 
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:900px){
     
     main {
         display: flex;
